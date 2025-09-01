@@ -72,7 +72,7 @@ const app1 = (function () {
     const cars1 = [] //-> private
 
     return {
-        get(index){
+        get(index) {
             return cars1[index]
         },
         add(car) {
@@ -90,5 +90,3 @@ const app1 = (function () {
 app1.add('BMW')
 
 
-//1
-//2
