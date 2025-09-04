@@ -51,7 +51,7 @@ const tuoi = 21
     {
         {
             {
-                const tuoi1 = 22; //biến trong code block sẽ, sẽ in ra 22 vì nó được khai báo trong cùng một phạm vi
+                const tuoi = 22; //biến trong code block sẽ, sẽ in ra 22 vì nó được khai báo trong cùng một phạm vi
                 console.log(tuoi);
 
                 // const tuoi = 22; nếu khai báo như này thì sẽ lỗi vì log đang chạy trước 
